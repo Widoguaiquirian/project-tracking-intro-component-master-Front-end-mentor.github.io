@@ -1,0 +1,4 @@
+/* Hide the mobile version */
+.menu__mobile {
+   display: none;
+}

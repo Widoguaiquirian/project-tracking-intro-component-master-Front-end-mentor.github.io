@@ -12,3 +12,11 @@ h1 {
 a {
    text-decoration: none;
 }
+
+/* Main text in the header */
+.hero__title {
+   color: var(--Very-Dark-Blue);
+   font-size: 6.4rem;
+   line-height: 1.2;
+   font-family: "Barlow Condensed", sans-serif;
+}
