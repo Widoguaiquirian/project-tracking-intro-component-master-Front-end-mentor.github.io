@@ -12,11 +12,6 @@ nav {
    justify-content: space-between;
 }
 
-.navigation__link {
-   color: var(--Very-Dark-Blue);
-   font-weight: bold;
-}
-
 .navigation__link:hover {
    text-decoration: underline;
    text-underline-offset: 1px;
@@ -32,4 +27,10 @@ nav {
 
 .opacity {
    opacity: 20%;
+}
+
+@media (max-width: 1200px) {
+   .nav__desktop {
+      display: none;
+   }
 }
