@@ -1,0 +1,14 @@
+body {
+   color: black;
+   font-family: "Barlow", sans-serif;
+   font-size: 1.8rem;
+   line-height: 1.6;
+}
+
+h1 {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+}

@@ -1,0 +1,35 @@
+nav {
+   width: 377px;
+   margin: 7rem auto 0 auto;
+   font-family: "Barlow Condensed", sans-serif;
+}
+
+.navigation__list {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   text-transform: uppercase;
+   justify-content: space-between;
+}
+
+.navigation__link {
+   color: var(--Very-Dark-Blue);
+   font-weight: bold;
+}
+
+.navigation__link:hover {
+   text-decoration: underline;
+   text-underline-offset: 1px;
+   text-decoration-thickness: 1px;
+}
+
+.dot {
+   font-size: 3rem;
+   line-height: 0;
+   height: 10px;
+   vertical-align: middle;
+}
+
+.opacity {
+   opacity: 20%;
+}
