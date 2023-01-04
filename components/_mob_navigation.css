@@ -3,6 +3,11 @@
 .nav__mobile {
    display: none;
 }
+
+.nav__mobile.active {
+   display: block;
+}
+
 /* Hiding elements shouldn't be on desktop layout */
 .nav__mobile {
    background-color: #ffffff;
@@ -11,9 +16,21 @@
    position: absolute;
    left: 50%;
    top: 50%;
-   transform: translate(-50%, -165%);
+   transform: translate(-50%, -140%);
    z-index: 9;
    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.407);
+}
+
+.btnClose {
+   display: none;
+}
+
+.btnClose.active {
+   display: block;
+}
+
+.btnHamburguer.active {
+   display: none;
 }
 
 .nav__mobile .navigation__list {
@@ -43,6 +60,7 @@
       height: 3rem;
       border: none;
       outline: none;
+      z-index: 999;
    }
 
    .menu__btn img {

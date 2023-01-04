@@ -33,4 +33,8 @@ nav {
    .nav__desktop {
       display: none;
    }
+
+   nav {
+      margin: 0;
+   }
 }
